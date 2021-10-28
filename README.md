@@ -4,7 +4,7 @@ An HTTP server that returns an embedded google map.
 
 Requests to the Server:
 
-  Requests to the server should be to the url: http://flip1.engr.oregonstate.edu:5678/map
+  Requests to the server should be to the url: http://flip1.engr.oregonstate.edu:5679/map
 
   Arguments are formatted as query parameters.
 
@@ -26,9 +26,9 @@ Requests to the Server:
 
   Example Queries: 
 
-  http://flip1.engr.oregonstate.edu:5678/map?city=boulder&state=co
+  http://flip1.engr.oregonstate.edu:5679/map?city=boulder&state=co
 
-  http://flip1.engr.oregonstate.edu:5678/map?streetAddr=20+w+34th+st&city=new+york&state=ny
+  http://flip1.engr.oregonstate.edu:5679/map?streetAddr=20+w+34th+st&city=new+york&state=ny
 
 Responses from the server:
 
