@@ -29,8 +29,8 @@ Requests to the Server:
     States should be formatted as their 2 letter abbreviation
 
   Resizing Map:
-
-    You can resize the iframe to suit the structure and design of your own website with the height and width arguments. These are defined in px. Please note that embedded maps are not supported below a size of 200 px in either dimension.
+  
+  You can resize the iframe to suit the structure and design of your own website with the height and width arguments. These are defined in px. Please note that embedded maps are not supported below a size of 200 px in either dimension.
 
 
   Example Queries: 
