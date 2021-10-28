@@ -5,12 +5,25 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const port = 5678;
+const port = 5676;
 
 app.get('/map', (req, res) => {
   const streetAddr = req.query.streetAddr;
   const city = req.query.city;
   const state = req.query.state;
+  const h = req.query.height;
+  const w = req.query.width;
+
+  let height = '250';
+  let width = '450';
+
+  if (h) {
+    height = h;
+  }
+
+  if (w) {
+    width = w;
+  }
 
   let formattedCity = city.replace(/ /g, '+');
 
@@ -28,8 +41,8 @@ app.get('/map', (req, res) => {
     res.status(200)
     res.send(
       `<iframe 
-        width='450' 
-        height='250' 
+        width=${width} 
+        height=${height}
         frameborder='0' 
         style='border:0' 
         src=${url} 

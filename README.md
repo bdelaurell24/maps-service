@@ -18,17 +18,28 @@ Requests to the Server:
   
     streetAddr
 
+    height (default = 250px)
+
+    width (default = 450px)
+
   Formatting Notes: 
   
     Replace spaces in a string with '+ (i.e. 1234 Brown St   => 1234+Brown+St)
     
     States should be formatted as their 2 letter abbreviation
 
+  Resizing Map:
+
+    You can resize the iframe to suit the structure and design of your own website with the height and width arguments. These are defined in px. Please note that embedded maps are not supported below a size of 200 px in either dimension.
+
+
   Example Queries: 
 
   http://flip1.engr.oregonstate.edu:5679/map?city=boulder&state=co
 
   http://flip1.engr.oregonstate.edu:5679/map?streetAddr=20+w+34th+st&city=new+york&state=ny
+
+  http://flip1.engr.oregonstate.edu:5679/map?city=denver&state=co&height=500&width=700
 
 Responses from the server:
 
