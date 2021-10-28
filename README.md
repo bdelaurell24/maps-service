@@ -24,9 +24,9 @@ Requests to the Server:
 
   Formatting Notes: 
   
-    Replace spaces in a string with '+ (i.e. 1234 Brown St   => 1234+Brown+St)
+  Replace spaces in a string with '+ (i.e. 1234 Brown St   => 1234+Brown+St)
     
-    States should be formatted as their 2 letter abbreviation
+  States should be formatted as their 2 letter abbreviation
 
   Resizing Map:
   
