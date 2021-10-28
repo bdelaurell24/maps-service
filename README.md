@@ -9,14 +9,19 @@ Requests to the Server:
   Arguments are formatted as query parameters.
 
   Required Arguments:
+  
     city 
+    
     state
   
   Optional Arguments:
+  
     streetAddr
 
   Formatting Notes: 
+  
     Replace spaces in a string with '+ (i.e. 1234 Brown St   => 1234+Brown+St)
+    
     States should be formatted as their 2 letter abbreviation
 
   Example Queries: 
